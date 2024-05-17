@@ -58,6 +58,4 @@ router.get('/:id', (req, res) => __awaiter(void 0, void 0, void 0, function* () 
     });
     res.send({ result });
 }));
-router.put("/:id", auth_1.verifyToken, (req, res) => {
-});
 exports.default = router;

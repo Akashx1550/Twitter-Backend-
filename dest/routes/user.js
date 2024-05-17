@@ -25,17 +25,6 @@ router.post("/", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
             firstName, lastName, email, username, password
         }
     });
-    //     "firstName" : "Aklaus",
-    //     "lastName" : "Michaelson",
-    //    "email" : "klausmichaelson@gmail.com",
-    //    "username" : "aklausx1550",
-    //    "password" : "123456"
-    // // Create a JWT token
-    // const token = createJwtToken(user);
-    // // Set the token in cookies
-    // res.cookie("token", token, {
-    //     httpOnly: true, // Prevents client-side JavaScript from accessing the cookie
-    // });
     console.log(user);
     res.send("user added");
 }));
